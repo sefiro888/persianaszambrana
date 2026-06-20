@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Motor tubular dentro del cajón de una persiana y un mando a distancia realista emitiendo señal">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#FCFCFE"/><stop offset="1" stop-color="#ECEEF3"/></linearGradient>
+    <radialGradient id="blob" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFC400" stop-opacity="0.14"/><stop offset="1" stop-color="#FFC400" stop-opacity="0"/></radialGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#30353F"/><stop offset="1" stop-color="#1A1D23"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF6DD"/><stop offset="0.6" stop-color="#FFE6A6"/><stop offset="1" stop-color="#FCD173"/></linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="0.6" stop-color="#FFF6D8" stop-opacity="0.3"/><stop offset="1" stop-color="#FFF6D8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="lama" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCE08A"/><stop offset="0.5" stop-color="#F3C246"/><stop offset="1" stop-color="#E0A413"/></linearGradient>
+    <linearGradient id="sill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FEFEFF"/><stop offset="1" stop-color="#E6EAF0"/></linearGradient>
+    <linearGradient id="tube" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EDEFF3"/><stop offset="0.5" stop-color="#BFC5CE"/><stop offset="1" stop-color="#8A909A"/></linearGradient>
+    <linearGradient id="remote" x1="0" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#2E333E"/><stop offset="1" stop-color="#171A20"/></linearGradient>
+    <clipPath id="glass"><rect x="276" y="96" width="248" height="242" rx="9"/></clipPath>
+    <filter id="vsh" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#141823" flood-opacity="0.20"/></filter>
+    <filter id="vshS" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#141823" flood-opacity="0.18"/></filter>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="620" cy="120" r="300" fill="url(#blob)"/>
+
+  <g filter="url(#vsh)"><rect x="250" y="55" width="300" height="330" rx="22" fill="url(#frame)"/></g>
+  <rect x="276" y="96" width="248" height="242" rx="9" fill="url(#sky)"/>
+  <g clip-path="url(#glass)">
+    <circle cx="452" cy="255" r="106" fill="url(#sun)"/>
+    <rect x="276" y="98" width="248" height="16" rx="5" fill="url(#lama)"/>
+    <rect x="276" y="118" width="248" height="16" rx="5" fill="url(#lama)"/>
+    <rect x="276" y="138" width="248" height="16" rx="5" fill="url(#lama)"/>
+    <rect x="276" y="158" width="248" height="16" rx="5" fill="url(#lama)"/>
+    <rect x="276" y="178" width="248" height="19" rx="5" fill="url(#lama)"/>
+    <rect x="276" y="199" width="248" height="4" fill="#A9750A" opacity="0.4"/>
+    <polygon points="262,96 486,96 360,338 262,338" fill="#FFFFFF" opacity="0.09"/>
+  </g>
+  <rect x="266" y="90" width="12" height="252" rx="4" fill="#343945"/>
+  <rect x="522" y="90" width="12" height="252" rx="4" fill="#282D36"/>
+  <rect x="250" y="55" width="300" height="330" rx="22" fill="none" stroke="#3C424E" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Cajón abierto con motor tubular -->
+  <rect x="240" y="34" width="320" height="52" rx="12" fill="#1B1E24"/>
+  <rect x="246" y="40" width="308" height="40" rx="9" fill="#15171C"/>
+  <g>
+    <rect x="300" y="48" width="222" height="26" rx="13" fill="url(#tube)"/>
+    <ellipse cx="522" cy="61" rx="6" ry="13" fill="#9AA0A9"/>
+    <ellipse cx="522" cy="61" rx="6" ry="13" fill="none" stroke="#6E747E" stroke-width="1"/>
+    <g stroke="#7C828C" stroke-width="1.6" opacity="0.7"><line x1="345" y1="50" x2="345" y2="72"/><line x1="380" y1="50" x2="380" y2="72"/><line x1="415" y1="50" x2="415" y2="72"/><line x1="450" y1="50" x2="450" y2="72"/><line x1="485" y1="50" x2="485" y2="72"/></g>
+    <rect x="304" y="51" width="200" height="5" rx="2.5" fill="#FFFFFF" opacity="0.4"/>
+    <rect x="262" y="42" width="52" height="38" rx="10" fill="#23272F"/>
+    <circle cx="288" cy="61" r="11" fill="#FFC400"/>
+    <circle cx="288" cy="61" r="4" fill="#16181D"/>
+    <path d="M268 80 C 258 100, 272 116, 262 134" stroke="#16181D" stroke-width="5" fill="none"/>
+  </g>
+
+  <g filter="url(#vshS)">
+    <rect x="205" y="372" width="390" height="22" rx="6" fill="url(#sill)"/>
+    <rect x="205" y="393" width="390" height="12" rx="4" fill="#D5DAE2"/>
+  </g>
+
+  <ellipse cx="430" cy="392" rx="120" ry="14" fill="#11141C" opacity="0.12"/>
+
+  <!-- Mando a distancia realista -->
+  <g filter="url(#vsh)" transform="translate(372,212) rotate(8)">
+    <rect x="0" y="0" width="96" height="170" rx="22" fill="url(#remote)"/>
+    <rect x="0" y="0" width="96" height="170" rx="22" fill="none" stroke="#0E1116" stroke-width="1"/>
+    <rect x="8" y="6" width="44" height="22" rx="6" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="16" y="16" width="64" height="34" rx="8" fill="#0F1318"/>
+    <text x="48" y="39" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFC400" text-anchor="middle">PZ</text>
+    <circle cx="48" cy="80" r="19" fill="#FFC400"/>
+    <path d="M40 85 l8-10 8 10" fill="none" stroke="#16181D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="48" cy="116" r="11" fill="#3A3F4A"/>
+    <rect x="43" y="111" width="10" height="10" rx="2" fill="#FFC400"/>
+    <circle cx="48" cy="148" r="15" fill="#3A3F4A"/>
+    <path d="M41 143 l7 9 7-9" fill="none" stroke="#FFC400" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Señal -->
+  <g transform="translate(470,232)" stroke="#FFC400" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M0 40 a40 40 0 0 1 0 -56" opacity="0.95"/>
+    <path d="M16 30 a22 22 0 0 1 0 -36" opacity="0.6"/>
+  </g>
+</svg>
